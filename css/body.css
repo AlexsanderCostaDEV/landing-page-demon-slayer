@@ -4,4 +4,7 @@ body {
     url(../img/wallpaper.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 5px 128px;
 }
