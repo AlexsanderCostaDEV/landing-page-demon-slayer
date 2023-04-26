@@ -71,14 +71,29 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1s;
+    /* transition: all 1s; */
 }
 
 .social-container i {
     font-size: 1.5rem;
 }
 
-.social-container li:hover {
+.ytb:hover {
     background-color: #e62721;
     border-color: #e62721;
+}
+
+.twt:hover {
+    background-color: #1d9bf0;
+    border-color: #1d9bf0;
+}
+
+.insta:hover {
+    background: linear-gradient(225deg, #843ebd, #e62721, #eec50b);
+    border: transparent;
+}
+
+.face:hover {
+    background-color: #1771e6;
+    border-color: #1771e6;
 }
