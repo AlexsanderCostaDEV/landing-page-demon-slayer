@@ -97,3 +97,32 @@ main {
     background-color: #1771e6;
     border-color: #1771e6;
 }
+
+@media (max-width:768px) {
+    .content-container {
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .content-container h1 {
+        font-size: 4rem;
+    }
+    .content-container h1 span {
+        font-size: 1.5rem;
+        transform: translateY(15px);
+    }
+    .movie-title {
+        font-size: 1.45rem;
+        transform: translateY(5px);
+        /* -webkit-text-stroke-width: .2px;
+        -webkit-text-stroke-color: #fff; */
+    }
+    .movie-text {
+        display: none;
+    }
+    .movie-button {
+        margin-top: 25px;
+    }
+    .social-container {
+        display: none;
+    }
+}
